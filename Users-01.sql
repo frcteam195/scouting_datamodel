@@ -1,0 +1,10 @@
+/* Table of Users*/
+
+CREATE TABLE IF NOT EXISTS "Users"
+(
+	"UserID" SMALLINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	"FirstName" VARCHAR(50) NULL,
+	"LastName" VARCHAR(50) NULL,
+	"CellPhone" VARCHAR(12) NULL, 
+	"Email" VARCHAR(100) NULL
+);
