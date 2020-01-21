@@ -1,0 +1,16 @@
+/* Table of Matches */
+CREATE TABLE IF NOT EXISTS "Matches"
+(
+	"MatchID" INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	"EventID" INT NOT NULL PRIMARY KEY,
+	"MatchNo" INT NULL,
+	"MatchNoTag" SMALLINT NULL,
+	"RedTeam1" VARCHAR(5) NULL,
+	"RedTeam2" VARCHAR(5) NULL,
+	"RedTeam3" VARCHAR(5) NULL,
+	"BlueTeam1" VARCHAR(5) NULL,
+	"BlueTeam2" VARCHAR(5) NULL,
+	"BlueTeam3" VARCHAR(5) NULL,
+	"MatchVideo" VARCHAR(1024) NULL,
+	"Comments" VARCHAR(1024) NULL
+);
