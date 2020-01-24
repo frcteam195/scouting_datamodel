@@ -1,0 +1,7 @@
+/* Final 24 */
+
+CREATE TABLE IF NOT EXISTS Final24
+(
+	SortOrder INT NULL,
+	Team VARCHAR(10) NULL 
+);
