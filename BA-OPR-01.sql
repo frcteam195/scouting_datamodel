@@ -1,0 +1,7 @@
+/* Admin Tables BA - OPR */
+
+CREATE TABLE IF NOT EXISTS BAOPR
+(
+	Team VARCHAR(10) NULL,
+	OPR FLOAT NULL
+);
