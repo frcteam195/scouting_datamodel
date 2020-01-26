@@ -1,9 +1,10 @@
 /* Table of Users*/
 
-CREATE TABLE IF NOT EXISTS Users (
-	UserID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	FirstName VARCHAR(50) NULL,
-	LastName VARCHAR(50) NULL,
-	CellPhone VARCHAR(12) NULL, 
-	Email VARCHAR(100) NULL
-);
+CREATE TABLE IF NOT EXISTS `team195_scouting`.`Users` (
+	`UserID` INT AUTO_INCREMENT NOT NULL,
+	`FirstName` VARCHAR(50) NULL,
+	`LastName` VARCHAR(50) NULL,
+	`CellPhone` VARCHAR(15) NULL, 
+	`Email` VARCHAR(100) NULL,
+	PRIMARY KEY(`UserID`))
+Engine = InnoDB;
