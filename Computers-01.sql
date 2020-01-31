@@ -10,15 +10,7 @@ CREATE TABLE IF NOT EXISTS `team195_scouting`.`Computers` (
 	`ComputerID` INT AUTO_INCREMENT NOT NULL,
 	`ComputerName` VARCHAR(50) NULL,
 	`ComputerTypeID` INT NULL,
-	`RedOnLeft` BOOLEAN NULL,
-	`FieldOrientation` INT NULL,
 	`ConnectionStatus` BOOLEAN NULL,
-	/* `AllianceStationID` INT NOT NULL, */
-	/* `TrainingMode` BOOLEAN NULL, */
-	/* `RobotImagePath` VARCHAR(255) NULL, */
-	/* `MatchVideoPath` VARCHAR(255) NULL, */
-	/* `MatchIDToAnalyze` INT NULL, */
-	/* `DefenseAdmin` BOOLEAN NULL, */
-	/* `Administrator` BOOLEAN NULL, */
+	`AllianceStationID` INT NOT NULL,
 	PRIMARY KEY(`ComputerID`))
 Engine = InnoDB;
