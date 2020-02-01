@@ -1,6 +1,6 @@
 /* Current Event Analysis */
 
-CREATE TABLE IF NOT EXISTS `team195_scouting`.`Team` (
+CREATE TABLE IF NOT EXISTS `team195_scouting`.`CurrentEventAnalysis` (
 	`Team` VARCHAR(10) NULL,
 	`AnalysisTypeID` INT NULL,
 	`EventID` INT NULL,

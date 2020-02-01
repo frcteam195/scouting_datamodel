@@ -1,8 +1,7 @@
 /* Score Predictor Data (Query/Dynamic Table) */
 
-CREATE TABLE IF NOT EXISTS ScorePredictorData
-(
-	MatchID INT NOT NULL PRIMARY KEY, 
+CREATE TABLE IF NOT EXISTS `team195_scouting`.`ScorePredictorData` (
+	MatchID INT NOT NULL, 
 	EventID INT NOT NULL,
 	MatchNo INT NULL,
 	Alliance VARCHAR(5) NULL,
@@ -11,5 +10,5 @@ CREATE TABLE IF NOT EXISTS ScorePredictorData
 	Average FLOAT NULL,
 	Median FLOAT NULL,
 	Minimum FLOAT NULL,
-	Maximum FLOAT NULL
-);
+	Maximum FLOAT NULL)
+Engine = InnoDB;

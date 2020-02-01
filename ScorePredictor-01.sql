@@ -1,7 +1,7 @@
 /* Table Of Score Predictions */
 
-CREATE TABLE IF NOT EXISTS ScorePredictor (
-	MatchID INT NOT NULL PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS `team195_scouting`.`ScorePredictor` (
+	MatchID INT NOT NULL,
 	EventID INT NOT NULL,
 	MatchNo INT NULL,
 	PredictedMinScoreRedAlliance INT NULL,
@@ -9,5 +9,6 @@ CREATE TABLE IF NOT EXISTS ScorePredictor (
 	PredictedMaxScoreRedAlliance INT NULL,
 	PredictedMinScoreBlueAlliance INT NULL,
 	PredictedAveScoreBlueAlliance INT NULL,
-	PredictedMaxScoreBlueAlliance INT NULL
-);
+	PredictedMaxScoreBlueAlliance INT NULL,
+PRIMARY KEY(`MatchID`))
+Engine = InnoDB;
