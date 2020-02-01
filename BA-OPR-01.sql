@@ -1,7 +1,7 @@
 /* Admin Tables BA - OPR */
 
-CREATE TABLE IF NOT EXISTS BAOPR
-(
-	Team VARCHAR(10) NULL,
-	OPR FLOAT NULL
-);
+CREATE TABLE IF NOT EXISTS `team195_scouting`.`BA-OPR` (
+	`Team` VARCHAR(10) NULL,
+	`OPR` FLOAT NULL,
+PRIMARY KEY(`Team`))
+Engine = InnoDB;

@@ -5,7 +5,7 @@
    1 = false
    2 = true */
 
-CREATE TABLE IF NOT EXISTS `team195_scouting`.`Match_Scouting` (
+CREATE TABLE IF NOT EXISTS `team195_scouting`.`MatchScouting` (
 	`MatchScoutingID` INT AUTO_INCREMENT NOT NULL,
 	`EventID` INT NOT NULL,
 	`MatchID` INT NOT NULL,

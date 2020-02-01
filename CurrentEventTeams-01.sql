@@ -1,7 +1,7 @@
 /* Admin Tables Current Event Teams */
 
-CREATE TABLE IF NOT EXISTS CurrentEventTeams
-(
+CREATE TABLE IF NOT EXISTS `team195_scouting`.`CurrentEventTeams` (
 	Team VARCHAR(10) NULL,
-	PitComputerID INT NULL
-);
+	ComputerID INT NULL,
+PRIMARY KEY(`Team`))
+Engine = InnoDB;
