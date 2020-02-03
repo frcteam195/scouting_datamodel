@@ -1,0 +1,6 @@
+Field,Type,Null,Key,Default,Extra
+UserID,int(11),NO,PRI,NULL,auto_increment
+FirstName,varchar(50),YES,,NULL,
+LastName,varchar(50),YES,,NULL,
+CellPhone,varchar(15),YES,,NULL,
+Email,varchar(100),YES,,NULL,

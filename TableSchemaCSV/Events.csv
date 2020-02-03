@@ -1,0 +1,7 @@
+Field,Type,Null,Key,Default,Extra
+EventID,int(11),NO,PRI,NULL,auto_increment
+EventName,varchar(100),YES,,NULL,
+EventLocation,varchar(100),YES,,NULL,
+StartDate,date,YES,,NULL,
+EndDate,date,YES,,NULL,
+CurrentEvent,tinyint(1),YES,,0,

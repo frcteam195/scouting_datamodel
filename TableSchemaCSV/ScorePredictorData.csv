@@ -1,0 +1,11 @@
+Field,Type,Null,Key,Default,Extra
+MatchID,int(11),NO,,NULL,
+EventID,int(11),NO,,NULL,
+MatchNo,int(11),YES,,NULL,
+Alliance,varchar(5),YES,,NULL,
+AnalysisTypeID,int(11),NO,,NULL,
+Team,varchar(10),YES,,NULL,
+Average,float,YES,,NULL,
+Median,float,YES,,NULL,
+Minimum,float,YES,,NULL,
+Maximum,float,YES,,NULL,

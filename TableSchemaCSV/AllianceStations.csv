@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+AllianceStationID,int(11),NO,PRI,NULL,
+AllianceStation,varchar(50),YES,,NULL,

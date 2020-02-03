@@ -1,0 +1,7 @@
+Field,Type,Null,Key,Default,Extra
+EventID,int(11),NO,,NULL,
+MatchID,int(11),NO,,NULL,
+MatchScoutingID,int(11),NO,PRI,NULL,
+Seq,int(11),NO,PRI,NULL,
+Team,varchar(10),YES,,NULL,
+WordID,int(11),NO,,NULL,

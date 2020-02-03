@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+LanguageTypeID,int(11),NO,PRI,NULL,auto_increment
+LanguageType,varchar(50),YES,,NULL,

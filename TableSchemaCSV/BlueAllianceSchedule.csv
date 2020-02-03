@@ -1,0 +1,8 @@
+Field,Type,Null,Key,Default,Extra
+MatchNo,int(11),NO,PRI,NULL,
+RedTeam1,varchar(10),YES,,NULL,
+RedTeam2,varchar(10),YES,,NULL,
+RedTeam3,varchar(10),YES,,NULL,
+BlueTeam1,varchar(10),YES,,NULL,
+BlueTeam2,varchar(10),YES,,NULL,
+BlueTeam3,varchar(10),YES,,NULL,

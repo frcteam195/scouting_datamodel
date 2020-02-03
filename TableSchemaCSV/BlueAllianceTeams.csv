@@ -1,0 +1,4 @@
+Field,Type,Null,Key,Default,Extra
+Team,varchar(10),NO,PRI,NULL,
+TeamName,varchar(50),YES,,NULL,
+TeamLocation,varchar(50),YES,,NULL,

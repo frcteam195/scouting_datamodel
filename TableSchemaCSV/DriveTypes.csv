@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+DriveTypeID,int(11),NO,PRI,NULL,auto_increment
+DriveType,varchar(50),YES,,NULL,

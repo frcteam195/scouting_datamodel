@@ -1,0 +1,10 @@
+Field,Type,Null,Key,Default,Extra
+MatchID,int(11),NO,PRI,NULL,auto_increment
+EventID,int(11),NO,,NULL,
+MatchNo,int(11),NO,,NULL,
+RedTeam1,varchar(5),NO,,NULL,
+RedTeam2,varchar(5),NO,,NULL,
+RedTeam3,varchar(5),NO,,NULL,
+BlueTeam1,varchar(5),NO,,NULL,
+BlueTeam2,varchar(5),NO,,NULL,
+BlueTeam3,varchar(5),NO,,NULL,

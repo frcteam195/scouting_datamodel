@@ -1,0 +1,14 @@
+Field,Type,Null,Key,Default,Extra
+MatchScoutingL2ID,int(11),NO,PRI,NULL,auto_increment
+EventID,int(11),NO,,NULL,
+MatchID,int(11),NO,,NULL,
+ComputerID,int(11),NO,,NULL,
+ScouterID,int(11),NO,,NULL,
+ReviewerID,int(11),YES,,NULL,
+ScoutingStatus,int(11),YES,,0,
+TeamRed,varchar(10),YES,,NULL,
+TeamBlue,varchar(10),YES,,NULL,
+MatchScoutingIDRed,int(11),NO,,NULL,
+MatchScoutingIDBlue,int(11),NO,,NULL,
+CommentRed,varchar(1024),YES,,NULL,
+CommentBlue,varchar(1024),YES,,NULL,
