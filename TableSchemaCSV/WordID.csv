@@ -1,0 +1,4 @@
+Field,Type,Null,Key,Default,Extra
+WordID,int(11),NO,PRI,NULL,auto_increment
+Word,varchar(50),YES,,NULL,
+DisplayWordOrder,int(11),YES,UNI,NULL,

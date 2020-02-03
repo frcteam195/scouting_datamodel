@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+ComputerTypeID,int(11),NO,PRI,NULL,auto_increment
+ComputerType,varchar(50),YES,,NULL,

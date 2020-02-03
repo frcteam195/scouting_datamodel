@@ -1,0 +1,4 @@
+Field,Type,Null,Key,Default,Extra
+AnalysisTypeID,int(11),NO,PRI,NULL,auto_increment
+AnalysisType,varchar(20),YES,,NULL,
+SortOrder,int(11),YES,,NULL,

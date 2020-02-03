@@ -1,0 +1,6 @@
+Field,Type,Null,Key,Default,Extra
+ComputerID,int(11),NO,PRI,NULL,auto_increment
+ComputerName,varchar(50),YES,,NULL,
+ComputerTypeID,int(11),YES,,NULL,
+ConnectionStatus,tinyint(1),YES,,NULL,
+AllianceStationID,int(11),NO,,NULL,

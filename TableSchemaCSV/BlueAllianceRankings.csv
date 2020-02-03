@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+Team,varchar(10),NO,PRI,NULL,
+TeamRank,int(11),YES,,NULL,

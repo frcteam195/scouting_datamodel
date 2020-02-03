@@ -1,0 +1,10 @@
+Field,Type,Null,Key,Default,Extra
+MatchID,int(11),NO,PRI,NULL,
+EventID,int(11),NO,,NULL,
+MatchNo,int(11),YES,,NULL,
+PredictedMinScoreRedAlliance,int(11),YES,,NULL,
+PredictedAveScoreRedAlliance,int(11),YES,,NULL,
+PredictedMaxScoreRedAlliance,int(11),YES,,NULL,
+PredictedMinScoreBlueAlliance,int(11),YES,,NULL,
+PredictedAveScoreBlueAlliance,int(11),YES,,NULL,
+PredictedMaxScoreBlueAlliance,int(11),YES,,NULL,

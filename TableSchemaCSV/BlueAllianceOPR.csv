@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+Team,varchar(10),NO,PRI,NULL,
+OPR,float,YES,,NULL,

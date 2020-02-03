@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+MotorTypeID,int(11),NO,PRI,NULL,auto_increment
+MotorType,varchar(50),YES,,NULL,
