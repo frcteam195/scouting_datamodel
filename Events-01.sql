@@ -13,5 +13,6 @@ CREATE TABLE IF NOT EXISTS `team195_scouting`.`Events` (
 	`StartDate` DATE NULL,
 	`EndDate` DATE NULL,
 	`CurrentEvent` BOOlEAN DEFAULT FALSE,
+	`BAEventID` VARCHAR(20) NULL,
 	PRIMARY KEY(`EventID`))
 Engine = InnoDB;
