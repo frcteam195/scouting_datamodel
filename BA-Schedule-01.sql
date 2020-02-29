@@ -8,5 +8,6 @@ CREATE TABLE IF NOT EXISTS `team195_scouting`.`BlueAllianceSchedule` (
 	BlueTeam1 VARCHAR(10) NULL,
 	BlueTeam2 VARCHAR(10) NULL,
 	BlueTeam3 VARCHAR(10) NULL,
+    BAEventsID INT NULL,
 PRIMARY KEY(`MatchNo`))
 Engine = InnoDB;
